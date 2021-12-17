@@ -50,7 +50,7 @@ footer img {
 /*footer end*/
 
 /*baggrund*/
-.work, .edu, .private {
+.work, .edu, .private, .contact {
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -109,3 +109,9 @@ p {
     background-image: url(./Baggrund/contact.jpeg);
 }
 /*Private end*/
+
+/*contact*/
+.contact {
+    background-image: url(./Baggrund/migsten.jpeg);
+}
+/*contact end*/
