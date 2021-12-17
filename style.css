@@ -17,7 +17,7 @@ a:hover, a:active {
 /*Header*/
 header {
     background-color: #A0C4FF;
-    padding-bottom: 25px;
+    padding-bottom: 70px;
 }
 header img {
     width: 15%;
@@ -49,6 +49,15 @@ footer img {
 }
 /*footer end*/
 
+/*baggrund*/
+.work, .edu {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+/*baggrund end*/
+
 /*tidslinje, work og school*/
 .vl {
     border-left: 6px solid;
@@ -78,16 +87,19 @@ p {
 /*work*/
 .work {
     background-image: url(./Baggrund/work.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
 }
+
 /*Linkedin work*/
 .linkedin {
     padding: 40px;
-    width: 150px;
+    width: 120px;
     margin: auto;
 }
 /*linkedin end*/
 /*Work end*/
+
+/*education*/
+.edu {
+    background-image: url(./Baggrund/miguddanelse.jpeg);
+}
+/*education end*/
