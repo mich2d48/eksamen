@@ -50,7 +50,7 @@ footer img {
 /*footer end*/
 
 /*baggrund*/
-.work, .edu, .private, .contact {
+.work, .edu, .private, .contact, .port {
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -115,3 +115,13 @@ p {
     background-image: url(./Baggrund/migsten.jpeg);
 }
 /*contact end*/
+
+/*PortFolio*/
+.port {
+    background-image: url(./Baggrund/atlanten.jpg);
+}
+
+.portfolio {
+    margin-top: 500px;
+}
+/*PortFolio end*/
