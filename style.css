@@ -1,3 +1,93 @@
 body {
-    background-color: aqua;
+    background-color: #A0C4FF;
+    margin: 0;
+    padding: 0;
 }
+
+/*Link*/
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:active {
+    background-color: #FFC6FF;
+  }
+/*Link end*/
+
+/*Header*/
+header {
+    background-color: #A0C4FF;
+    padding-bottom: 25px;
+}
+header img {
+    width: 15%;
+}
+header img, h1 {
+    display: inline-block;
+}
+header div {
+    width: 350px;
+    margin: auto;
+}
+/*header end*/
+
+/*Section*/
+section {
+    background-color: #A0C4FF;
+}
+/*Section end*/
+
+/*footer*/
+footer {
+    background-color: #A0C4FF;
+    margin-top: 600px;
+}
+footer img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+/*footer end*/
+
+/*tidslinje, work og school*/
+.vl {
+    border-left: 6px solid;
+    height: 750px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+  .streg {
+      width: 20%;
+  }
+
+  h3,  p{
+    display: inline-block;
+  }
+
+h3 {
+    margin-left: 40%;
+}
+
+p {
+      margin-left: 6%;
+}
+/*Tidslinje end*/
+
+/*work*/
+.work {
+    background-image: url(./Baggrund/work.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Linkedin work*/
+.linkedin {
+    padding: 40px;
+    width: 150px;
+    margin: auto;
+}
+/*linkedin end*/
+/*Work end*/
